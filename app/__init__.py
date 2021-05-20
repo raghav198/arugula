@@ -20,5 +20,9 @@ def create_app(test_config=None):
         pass
 
     # Add some basic routing handlers
-    app.route('/')(lambda: render_template('index.html'))
-    app.route('/index.html')(lambda: render_template('inde.html'))
+    @app.route('/')
+    @app.route('/index.html')
+    def index():
+        return render_template('index.html')
+
+    return app
