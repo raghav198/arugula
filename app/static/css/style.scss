@@ -1,0 +1,44 @@
+@import url(fontawesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+// $background: #87cc93;
+// $accent: #54805c;
+// $dk-green: #223325;
+
+// based on background image
+$theme: #65723F;
+// $lt-accent: #aabf69;
+$lt-accent: #C2C1C2;
+// $dk-accent: #4f5931;
+$dk-accent: #594157; // eggplant
+// $dk-accent: #735470; // slightly lighter eggplant
+// $dk-accent: #C06E52; // copper red
+$text: white;
+
+/* Page */
+
+body {
+    font-family: 'Nanum Pen Script', cursive;
+
+    background: url(../images/page-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: $text;
+}
+
+.container {
+    width: 100%;
+}
+
+/* TOP NAVIGATION */ 
+
+.navbar {
+    // background-color: $dk-accent;
+    background-color: transparent;
+    color: $text;
+}

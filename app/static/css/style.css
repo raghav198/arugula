@@ -1,0 +1,23 @@
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+/* Page */
+body {
+  font-family: 'Nanum Pen Script', cursive;
+  background: url(../images/page-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+/* TOP NAVIGATION */
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
