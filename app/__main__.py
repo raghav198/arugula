@@ -1,4 +1,7 @@
-from . import create_app
+from . import app, db
+from . import models
+
 
 if __name__ == '__main__':
-    create_app().run(debug=True)
+    db.create_all()
+    app.run(debug=True)
